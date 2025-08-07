@@ -118,7 +118,8 @@ nav a.active{
 section{
     position: absolute;
     width: 100%;
-    height: 100vh;
+    min-height: 100%;
+    overflow-y: auto;
     padding: 10rem 9% 2rem;
     visibility: hidden;
     opacity: 0;
@@ -129,6 +130,8 @@ section{
 section.active{
     animation: show-content 1.5s linear forwards;
     animation-delay: 1.6s;
+    visibility: visible;
+    opacity: 1;
 }
 
 @keyframes show-content {
