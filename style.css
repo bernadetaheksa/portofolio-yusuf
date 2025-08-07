@@ -123,6 +123,7 @@ section{
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
+    background: var(--bg-color);
 }
 
 section.active{
