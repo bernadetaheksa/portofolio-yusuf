@@ -118,12 +118,11 @@ nav a.active{
 section{
     position: relative;
     width: 100%;
-    min-height: 100svh;
+    max-height: 100%;
     padding: 10rem 9% 2rem;
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
-    background: var(--bg-color);
 }
 
 section.active{
