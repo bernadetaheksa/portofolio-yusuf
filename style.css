@@ -24,6 +24,7 @@ html{
 
 body{
     color: var(--white-color);
+    overflow-y: hidden;
 }
 
 header{
